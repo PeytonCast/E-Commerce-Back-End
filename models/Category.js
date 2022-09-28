@@ -2,6 +2,7 @@ const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection.js');
 
+
 class Category extends Model {}
 
 Category.init(
@@ -9,7 +10,8 @@ Category.init(
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      primaryKey: true
+      primaryKey: true,
+      autoIncrement: true
     },
     category_name: {
       type: DataTypes.STRING,
@@ -25,9 +27,14 @@ Category.init(
     modelName: 'category',
   }
 );
-Category.sync().then(() => {
-  console.log("Cat table synced")
-}).catch(() =>{
-  console.log("error cat table failed to sync")
-})
-module.exports = Category;
+module.exports = Category
+
+
+// Category.sync().then(() => {
+//   console.log("Category table synced")
+// }).then(() => {
+//   module.exports = Category;
+// }).catch(() =>{
+//   console.log("error Category table failed to sync")
+// })
+
