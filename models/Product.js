@@ -34,6 +34,11 @@ Product.init(
       validate: {
         isInt: true
       }
+    },
+    category_id: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      references: { model : "category", key: "id" }
     }
 
   },
@@ -47,11 +52,5 @@ Product.init(
 );
 module.exports = Product
 
-// Product.sync().then(() => {
-//   console.log("Product table synced")
-// }).then(() => {
-//   module.exports = Category;
-// }).catch(() =>{
-//   console.log("error Product table failed to sync")
-// })
+
 
