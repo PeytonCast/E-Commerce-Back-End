@@ -16,6 +16,7 @@
    ### [Installation Instructions](install)
   To install clone this repo to your computer then open in vs code. 
   Once there make sure node.js, as well as MySQL, is installed. Next, open the vs code terminal and run "npm i" and that will install dependencies under package.json.
+  Be sure to fill in the .env file with your mysql credentials to make the app run.
   <br>
   ![image](https://user-images.githubusercontent.com/107663364/193150029-57c108b2-662d-4e79-818b-9ce2ab5289be.png)
   <br>
