@@ -17,21 +17,22 @@
   To install clone this repo to your computer then open in vs code. 
   Once there make sure node.js, as well as MySQL, is installed. Next, open the vs code terminal and run "npm i" and that will install dependencies under package.json.
   <br>
-  ![image](https://user-images.githubusercontent.com/107663364/192278076-d5aaecf9-fd5b-4721-a722-cb0dece3e5aa.png)
+  ![image](https://user-images.githubusercontent.com/107663364/193150029-57c108b2-662d-4e79-818b-9ce2ab5289be.png)
   <br>
   Then you will need to source the schema.sql and (optional) seed.sql files in the MySQL terminal this will launch the DataBase.
   <br>
-  ![image](https://user-images.githubusercontent.com/107663364/192278246-f9663446-f564-45eb-ac2a-a620bceba329.png)
-  <br>
-  ![image](https://user-images.githubusercontent.com/107663364/192278406-28238bb7-bfd0-46a2-a25c-7af2d23cd49e.png)
+  ![image](https://user-images.githubusercontent.com/107663364/193150088-20cd8eeb-4e7f-49ab-98cf-1f5f0e0ed0ae.png)
   <br>
   Once all this is done type into the terminal "npm run start" after the terminal responds with "App listening on port 3001!".
   <br>
-  ![image](https://user-images.githubusercontent.com/107663364/192277788-6de6ec17-2735-4dd5-b2d6-efee29b0bb92.png)
+  ![image](https://user-images.githubusercontent.com/107663364/193150283-da79b8a6-be35-41e3-9b2c-28b19b01dd9f.png)
   <br>
   Then you'll need to seed some test data open a new terminal and type  "npm run seed" this will seed your data.
+  <br>
+  ![image](https://user-images.githubusercontent.com/107663364/193150398-09ef043a-b819-4c6c-869b-ae98db0357fb.png)
 
-  [demo video](https://drive.google.com/file/d/11r73Z6aRHhMufOY0lZPMcRbwUw5YwumT/view)
+
+  [demo video]()
 
   <!--USAGE--> 
   ### [Usage](usage)
@@ -50,7 +51,9 @@
   Questions, comments, or smart remarks? Get in touch at my GitHub<br>
   GitHub: [PeytonCast](HTTPS:github.com/PeytonCast) <br>
   
-  ![image](https://user-images.githubusercontent.com/107663364/192279924-dc86c1c2-87ca-4be4-b73b-1e789df15803.png)
+  Get all categories example response.
+  ![image](https://user-images.githubusercontent.com/107663364/193150494-3c8be86c-bd0e-44c0-a92f-efba6748eedd.png)
+
 
      
   ###### This Readme was made by readme. generator built by Peyton Castillo [Visit GitHub Repo](https://github.com/PeytonCast/readme.generator)
