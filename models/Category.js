@@ -29,12 +29,3 @@ Category.init(
 );
 module.exports = Category
 
-
-// Category.sync().then(() => {
-//   console.log("Category table synced")
-// }).then(() => {
-//   module.exports = Category;
-// }).catch(() =>{
-//   console.log("error Category table failed to sync")
-// })
-
