@@ -52,7 +52,7 @@
   Questions, comments, or smart remarks? Get in touch at my GitHub<br>
   GitHub: [PeytonCast](HTTPS:github.com/PeytonCast) <br>
   
-  Get all categories example response.
+  Get all categories example response. <br>
   ![image](https://user-images.githubusercontent.com/107663364/193150494-3c8be86c-bd0e-44c0-a92f-efba6748eedd.png)
 
 
