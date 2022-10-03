@@ -19,8 +19,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   // find a single product by its `id`
   try {
-    const prodData = await Product.findByPk(req.params.id, { include : [{model: Tag}]}
-    );
+    const prodData = await Product.findByPk(req.params.id, { include : [{model: Tag}]});
     if (!prodData) {
       res.status(404).json({ message: '404 No product found with that id.'});
       return;
